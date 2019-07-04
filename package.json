@@ -13,7 +13,8 @@
   ],
   "scripts": {
     "test": "ava -v --timeout=20s",
-    "docs": "node docs/generate"
+    "docs": "node docs/generate",
+    "generate": "node generate"
   },
   "repository": "tachyons-css/tachyons-generator",
   "keywords": [
@@ -40,7 +41,7 @@
     "react-dom": "^15.6.1",
     "strip-css-comments": "^3.0.0",
     "strip-css-media-queries": "^1.0.0",
-    "tachyons-build-css": "^1.5.1"
+    "tachyons-build-css": "^1.8.1"
   },
   "devDependencies": {
     "ava": "^0.22.0",

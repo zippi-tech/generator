@@ -1,4 +1,12 @@
 module.exports = `
+.open-sans {
+  font-family: 'Open Sans'
+}
+
+.open-sans-condensed {
+  font-family: 'Open Sans Condensed'
+}
+
 .sans-serif {
   font-family: -apple-system, BlinkMacSystemFont,
                'avenir next', avenir,
