@@ -1,24 +1,28 @@
 {
-  "typeScale": [3, 2.25, 1.5, 1.25, 1, 0.875, 0.75],
-  "spacing": [0.125, 0.25, 0.5, 0.75, 1, 1.5, 2, 3, 4, 8, 16],
+  "typeScale": [8.4, 6.4, 4, 3.2, 2.4, 1.8, 1.6, 1.4, 1.2, 1],
+  "spacing": [0.2, 0.4, 0.8, 1.2, 1.6, 2.4, 3.2, 4.8, 6.4, 12.8, 25.6],
   "lineHeight": [1, 1.25, 1.5],
   "customMedia": [
-    { "s": 20 },
-    { "ns": 40 },
-    { "m": 40 },
-    { "l": 64 },
-    { "xl": 80 }
+    { "s": { "value": 20, "minWidth": true } },
+    { "ns": { "value": 40, "minWidth": true } },
+    { "m": { "value": 40, "minWidth": true } },
+    { "l": { "value": 64, "minWidth": true } },
+    { "xl": { "value": 80, "minWidth": true } }
   ],
   "colors": {
     "black": "#000",
     "verdigris": "#57c0a9",
     "light-verdigris": "#76dfc7",
+    "blue-verdigris": "#3bb3bb",
     "dark-verdigris": "#38675d",
-    "tower-gray": "#a9bdbf",
-    "chestnut-rose": "#38675d",
+    "gray-verdigris": "#aec3bf",
+    "chestnut-rose": "#cd5c5c",
     "chenin": "#dfcd6f",
-    "charleston-green": "#cd5c5c",
-    "dark-green": "#38675d",
+    "charleston-green": "#232b2b",
+    "alabaster": "#fcfcfc",
+    "concrete": "#f2f2f2",
+    "dove-gray": "#676767",
+
     "near-black": "#3F3F40",
     "dark-gray": "#585959",
     "mid-gray": "#727273",
@@ -71,11 +75,11 @@
   "nested": {
     "links": ["blue", "light-blue"]
   },
-  "borderWidths": [0, 0.125, 0.25, 0.5, 1, 2],
-  "borderRadius": [0, 0.125, 0.25, 0.5, 1, 50],
-  "widths": [1, 2, 4, 8, 16],
-  "maxWidths": [1, 2, 4, 8, 16, 32, 48, 64, 96],
-  "heights": [1, 2, 4, 8, 16],
+  "borderWidths": [0, 0.2, 0.4, 0.8, 1.6, 3.2],
+  "borderRadius": [0, 0.2, 0.4, 0.8, 1.6, 5],
+  "widths": [1.6, 3.2, 6.4, 12.8, 25.6],
+  "maxWidths": [1.6, 3.2, 6.4, 12.8, 25.6, 51.2, 76.8, 102.4, 153.6],
+  "heights": [1.6, 3.2, 6.4, 12.8, 25.6],
   "tables": {
     "striped": ["light-silver", "moon-gray", "light-gray", "near-white"],
     "stripe": ["light", "dark"]
