@@ -14,4 +14,6 @@ module.exports = `
 .debug-grid-16-solid {
   background:white url(data:image/gif;base64,R0lGODdhEAAQAPEAAADw/wDx/xXy/////ywAAAAAEAAQAAACIZyPKckYDQFsb6ZqD85jZ2+BkwiRFKehhqQCQgDHcgwEBQA7) repeat top left;
 }
+
+.bg-primary-gradient { background: linear-gradient(90deg, #00A884 0%, #00A830 77.67%); }
 `

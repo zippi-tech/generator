@@ -7,6 +7,10 @@ module.exports = `
   font-family: 'Open Sans Condensed'
 }
 
+.roboto {
+  font-family: 'Roboto'
+}
+
 .sans-serif {
   font-family: -apple-system, BlinkMacSystemFont,
                'avenir next', avenir,
