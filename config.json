@@ -11,7 +11,7 @@
   ],
   "colors": {
     "primary": "#00A884",
-    "primary-variant": "#00A884",
+    "primary-variant": "#00A830",
     "accent": "#3F8BFC",
     "warning": "#E70404",
     "background": "#F3F8F7",
@@ -20,6 +20,14 @@
     "black": "rgba(0, 0, 0, 0.88)",
     "black-contrast": "rgba(0, 0, 0, 0.6)",
     "soft-warning": "rgba(194, 186, 1, 1)",
+
+    "purple": "#6200EE",
+    "yellow": "#F9E63E",
+    "light-yellow": "#F6ED90",
+    "orange": "#FC7F3F",
+    "green": "#0B7142",
+    "light-green": "#5AD966",
+    "blue": "#3F8BFC",
 
     "verdigris": "#57c0a9",
     "white-verdigris": "#F0F5F4",
